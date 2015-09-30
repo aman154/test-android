@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aman.myapp1.activity.AnimatedActivity">
+
+
+    <ViewGroup
+        android:id="@+id/root_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    <View
+        android:id="@+id/red_box"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="#f4e00e0c"/>
+
+    <View
+        android:id="@+id/black_box"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="#000"/>
+
+    <View
+        android:id="@+id/yellow_box"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="#ffffed48"/>
+
+    <View
+        android:id="@+id/blue_box"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="#ff121eff"/>
+
+    </ViewGroup>
+
+</LinearLayout>

@@ -1,0 +1,135 @@
+{
+	"pt":"books",
+        "it":"computer",
+	"details":[
+{
+
+	"ipic":"http://img5a.flixcart.com/image/book/8/1/3/data-structures-and-algorithms-made-easy-400x400-imadxttg9dh9xnhx.jpeg",
+	"idetail":"data-structures-and-algorithms-made-easy",
+	"mrprice":600,
+	"dlprice":450,
+	"rating":4.0
+},
+{
+
+	"ipic":"http://img6a.flixcart.com/image/book/2/9/1/data-structures-using-c-400x400-imadz2wxkgsg43fk.jpeg",
+	"idetail":"data-structures-using-c",
+	"mrprice":400,
+	"dlprice":350,
+	"rating":4.0
+},
+{
+
+	"ipic":"http://img5a.flixcart.com/image/book/8/4/8/introduction-to-algorithms-400x400-imadddghtzxgsh4t.jpeg",
+	"idetail":"introduction-to-algorithms",
+	"mrprice":900,
+	"dlprice":750,
+	"rating":4.0
+},
+{
+
+	"ipic":"http://img6a.flixcart.com/image/book/4/6/5/java-the-complete-reference-400x400-imae7fzzky3gx92k.jpeg",
+	"idetail":"java-the-complete-reference",
+	"mrprice":200,
+	"dlprice":150,
+	"rating":4.0
+},
+{
+
+	"ipic":"http://img6a.flixcart.com/image/book/4/6/9/digital-image-processing-400x400-imadsn3f7jawwpxq.jpeg",
+	"idetail":"digital-image-processing",
+	"mrprice":300,
+	"dlprice":260,
+	"rating":4.0
+},
+{
+
+	"ipic":"http://img5a.flixcart.com/image/book/0/2/5/head-first-java-400x400-imadarvqgbqhupbc.jpeg",
+	"idetail":"head-first-java",
+	"mrprice":680,
+	"dlprice":650,
+	"rating":4.0
+},
+{
+
+	"ipic":"http://img6a.flixcart.com/image/book/7/4/2/computer-networks-400x400-imadsfmahvzdedhv.jpeg",
+	"idetail":"computer-networks",
+	"mrprice":700,
+	"dlprice":670,
+	"rating":4.0
+},
+{
+
+	"ipic":"http://img5a.flixcart.com/image/book/8/8/0/discrete-mathematics-and-its-applications-400x400-imadd3ghfzkufhz3.jpeg",
+	"idetail":"discrete-mathematics-and-its-applications",
+	"mrprice":350,
+	"dlprice":320,
+	"rating":4.0
+},
+{
+
+	"ipic":"http://img6a.flixcart.com/image/book/9/5/9/html5-black-book-covers-css3-javascript-xml-xhtml-ajax-php-and-jquery-with-cd-400x400-imadbedyrrchjxhn.jpeg",
+	"idetail":"html5-black-book",
+	"mrprice":500,
+	"dlprice":480,
+	"rating":4.0
+},
+{
+
+	"ipic":"http://img6a.flixcart.com/image/book/4/3/2/java-2-the-complete-reference-400x400-imadcbjzpr2gfahb.jpeg",
+	"idetail":"java-2-the-complete-reference",
+	"mrprice":720,
+	"dlprice":680,
+	"rating":4.0
+},
+{
+
+	"ipic":"http://img5a.flixcart.com/image/book/1/6/1/data-structures-and-algorithms-made-easy-in-java-2nd-edition-400x400-imae6r5xtwuaxjju.jpeg",
+	"idetail":"data-structures-and-algorithms-made-easy-in-java-2nd-edition",
+	"mrprice":500,
+	"dlprice":450,
+	"rating":4.0
+},
+{
+
+	"ipic":"http://img6a.flixcart.com/image/book/5/1/0/operating-system-concepts-400x400-imadz4nhzhgb2agd.jpeg",
+	"idetail":"operating-system-concepts",
+	"mrprice":600,
+	"dlprice":560,
+	"rating":4.0
+},
+{
+
+	"ipic":"http://img6a.flixcart.com/image/book/4/6/5/c-the-complete-reference-400x400-imae7fzygrvvh9fy.jpeg",
+	"idetail":"c-the-complete-reference",
+	"mrprice":300,
+	"dlprice":270,
+	"rating":4.0
+},
+{
+
+	"ipic":"http://img6a.flixcart.com/image/book/1/4/5/data-communications-networking-sie-forouzan-400x400-imad8nertbuynbjr.jpeg",
+	"idetail":"data-communications-networking",
+	"mrprice":900,
+	"dlprice":850,
+	"rating":4.0
+},
+{
+
+	"ipic":"http://img6a.flixcart.com/image/book/7/7/0/data-structures-using-c-and-c-400x400-imaddc4zkenahkjr.jpeg",
+	"idetail":"Data Structure",
+	"mrprice":350,
+	"dlprice":310,
+	"rating":4.0 
+},
+ {
+
+ 	"ipic":"http://img5a.flixcart.com/image/book/2/1/8/software-testing-principles-and-practices-400x400-imadc79gahpgzdm7.jpeg",
+ 	"idetail":"software-testing-principles-and-practices",
+ 	"mrprice":420,
+ 	"dlprice":380,
+ 	"rating":4.0
+ }
+
+	]
+}

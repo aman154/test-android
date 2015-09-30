@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.aman.myapp1.activity.ItemListActivity"
+    android:background="@color/white"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/filter_image"
+        android:src="@drawable/filter"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/filter_text"
+        android:text="FILTER"
+        android:textSize="18sp"
+        android:textColor="@color/textcolor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/filter_image"
+        android:layout_marginLeft="4dp"
+         />
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:background="@drawable/item_top_ll_bg"
+        android:layout_toRightOf="@+id/filter_text"/>
+
+      <ImageView
+        android:id="@+id/sort_image"
+        android:src="@drawable/ic_sort"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+          android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/sort_tv"
+        android:text="SORT"
+        android:textSize="18sp"
+        android:layout_toRightOf="@+id/sort_image"
+        android:textColor="@color/textcolor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dp"
+
+        />
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:background="@drawable/item_top_ll_bg"
+        android:layout_toRightOf="@+id/sort_tv"/>
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/items_detail_view"
+            android:src="@drawable/ic_tab_black_36dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/items_list_view"
+            android:src="@drawable/ic_list_black_36dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/items_grid_view"
+            android:src="@drawable/ic_view_module_black_36dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            />
+
+
+    </FrameLayout>
+
+
+    </RelativeLayout>

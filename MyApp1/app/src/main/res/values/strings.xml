@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">MyApp1</string>
+
+    <string name="welcome">welcome</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_refresh">Refresh</string>
+
+
+
+    <string name="feature3">feature3</string>
+    <string name="feature4">feature4</string>
+    <string name="feature5">feature5</string>
+    <string name="feature6">feature6</string>
+    <string name="title_activity_feature1">Feature1</string>
+
+
+    <string name="feature1">feature1</string>
+    <string name="feature1text">This image shows the 1st feature of the application.</string>
+    <string name="title_activity_feature2">Feature2</string>
+
+    <string name="feature2">feature2</string>
+    <string name="feature2text">This image shows the 2nd feature of the application.</string>
+    <string name="title_activity_feature3">Feature3</string>
+    <string name="title_activity_user_reg">UserReg</string>
+    <string name="categories">CATEGORIES</string>
+
+    <string name="Reg">Sign-Up</string>
+    <string name="regName">Name :</string>
+    <string name="regEmail">Email :</string>
+    <string name="regPass">Password :</string>
+    <string name="check">Term and Condition</string>
+    <string name="regButton">SignUp</string>
+
+    <string name="title_activity_refer_friends">REFER FRIENDS</string>
+    <string name="refertext1">How good a friends are you?</string>
+    <string name="refertext2">Refer your friends to little and they will get their first deal free up to Rs200.</string>
+    <string name="refertext3">You will get Rs.20 in your PayTM wallet when they install the little app, plus a free deal up to Rs200 when they make their first purchase. </string>
+    <string name="refertext4">DESFBT</string>
+    <string name="refertext5">Your code</string>
+
+    <string name="title_activity_seek_bar">SeekBarActivity</string>
+    <string name="anytime">ANYTIME</string>
+    <string name="sometimes">SOMETIMES</string>
+    <string name="rarely">RARELY</string>
+    <string name="never">NEVER</string>
+
+
+    <string name="contacts">contacts</string>
+    <string name="title_activity_feature4">feature4</string>
+
+    <string name="title_activity_rate_deal">Rate_deal</string>
+    <string name="rate">RATE A DEAL</string>
+
+
+    <string name="where">WHERE ARE YOU?</string>
+    <string name="locoff_text2">We can show you better deals if we know where you are </string>
+    <string name="locoff_text3">or select a city to proceed</string>
+
+    <string-array name="cities">
+        <item>Bangalore</item>
+        <item>Delhi</item>
+        <item>Mumbai</item>
+        <item>Pune</item>
+        <item>Chennai</item>
+    </string-array>
+    <string name="title_activity_feature6">Feature6</string>
+    <string name="title_activity_material_design1">MaterialDesign1</string>
+    <string name="title_activity_tab">TabActivity</string>
+
+    <string name="detail">Here we give the detail of the movies</string>
+    <string name="movie_name">Name</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_movies__detail">Movies_Detail</string>
+
+
+    <string name="movie_image_tran">movie_tran</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_graph_line">GraphLine</string>
+    <string name="title_activity_graph_example">GraphExample</string>
+
+    <string name="path_search">M141,17 A9,9 0 1,1 142,16 L149,23</string>
+    <string name="title_activity_animated">AnimatedActivity</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_count_down_timer">CountDownTimer</string>
+    <string name="title_activity_place_picker">PlacePicker</string>
+
+
+    <string name="detail_text">Title: %1$s\nPlace id: %2$s\nAddress: %3$s\nPhone: %4$s\n\n%5$s</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_search_list">SearchListActivity</string>
+    <string name="title_activity_test_activity1">TestActivity1</string>
+    <string name="title_activity_item_list">ItemListActivity</string>
+    <string name="title_activity_search_result_detail">SearchResultDetail</string>
+
+</resources>

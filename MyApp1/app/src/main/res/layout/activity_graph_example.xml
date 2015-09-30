@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aman.myapp1.activity.GraphExample">
+
+    <LinearLayout
+        android:id="@+id/WidgetDataLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true">
+
+        <com.example.aman.myapp1.graph.LineGraphView
+            android:id="@+id/WidgetAccelGraph"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            title="X, Y, Z Accel (m/s^2)"
+            autoScale="true" />
+
+        <com.example.aman.myapp1.graph.LineGraphView
+            android:id="@+id/WidgetAccelMagGraph"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            title=" Accel Magnitude (m/s^2)"
+            autoScale="true" />
+    </LinearLayout>
+
+</RelativeLayout>

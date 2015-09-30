@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aman.myapp1.fragment.ItemListViewFragment">
+
+  <ListView
+      android:id="@+id/fragment_list"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@color/tab_bar_bg">
+   </ListView>
+
+
+    <GridView
+        android:visibility="gone"
+        android:id="@+id/fragment_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:horizontalSpacing="1dp"
+        android:verticalSpacing="1dp"
+        android:stretchMode="columnWidth"
+        android:background="@color/tab_bar_bg"
+        android:numColumns="2"
+        />
+
+</RelativeLayout>

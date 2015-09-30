@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomView">
+        <attr name="CustomTimerViewStyle" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="AnimatedPathView">
+        <attr name="strokecolor" format="color"/>
+        <attr name="strokewidth" format="float"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="CustomTimerView">
+
+        <attr name="text_size" format="dimension"/>
+        <attr name="text_color" format="color"/>
+        <attr name="circle_radius" format="dimension"/>
+        <attr name="timer_counts" format="integer"/>
+
+    </declare-styleable>
+</resources>

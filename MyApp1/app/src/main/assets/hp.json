@@ -1,0 +1,377 @@
+{
+  "hp":[
+    {
+      "st" : "",
+      "ss" : "b",
+      "sc"  :
+      [
+        {
+          "mpic" : "http://img5a.flixcart.com/www/promos/new/20150721_163520_730x300_home-decor-range.jpg",
+          "tg"   : "homedecor",
+          "td"   : "some deal code"
+        },
+        {
+        "mpic" : "http://img5a.flixcart.com/www/promos/new/20150721_163520_730x300_home-decor-range.jpg",
+        "tg"   : "homedecor",
+        "td"   : "some deal code"
+       },{
+        "mpic" : "http://img5a.flixcart.com/www/promos/new/20150721_163520_730x300_home-decor-range.jpg",
+        "tg"   : "homedecor",
+        "td"   : "some deal code"
+      },{
+        "mpic" : "http://img5a.flixcart.com/www/promos/new/20150721_163520_730x300_home-decor-range.jpg",
+        "tg"   : "homedecor",
+        "td"   : "some deal code"
+      }
+      ],
+      "vtt" : "VIEW ALL FEATURED DEALS",
+      "vtg" : "sq",
+      "vtd" : {"phrase" : "some searc json"}
+    },
+    {
+      "st" : "Categories",
+      "ss" : "s",
+      "sc"  :
+      [
+        {
+          "mpic" : "http://checklittle.com/images/merchants/delhi/hinglishcafe.jpg",
+          "tg"   : "sq",
+          "td"   : {"dt":"Hotels"}
+        },
+        {
+                  "mpic" : "http://checklittle.com/images/merchants/kolkata/azadhinddhaba.jpg",
+                  "tg"   : "dc",
+                  "td"   : "some deal code"
+                },
+        {
+          "mpic" : "http://checklittle.com/images/merchants/delhi/hinglishcafe.jpg",
+          "tg"   : "sq",
+          "td"   : {"dt":"Restaurants"}
+        },
+        {
+                  "mpic" : "http://checklittle.com/images/merchants/kolkata/azadhinddhaba.jpg",
+                  "tg"   : "dc",
+                  "td"   : "some deal code"
+                },
+        {
+          "mpic" : "http://checklittle.com/images/merchants/delhi/hinglishcafe.jpg",
+          "tg"   : "sq",
+          "td"   : {"dt":"Restaurants"}
+        },{
+                    "mpic" : "http://checklittle.com/images/merchants/pune/rollsmania.jpg",
+                    "tg"   : "sq",
+                    "td"   : {"pmc":"Dominoes"}
+                  },{
+                                      "mpic" : "http://checklittle.com/images/merchants/kolkata/azadhinddhaba.jpg",
+                                      "tg"   : "dc",
+                                      "td"   : "some deal code"
+                                    },
+                            {
+                              "mpic" : "http://checklittle.com/images/merchants/delhi/hinglishcafe.jpg",
+                              "tg"   : "sq",
+                              "td"   : {"dt":"Restaurants"}
+                            },{
+                                        "mpic" : "http://checklittle.com/images/merchants/pune/rollsmania.jpg",
+                                        "tg"   : "sq",
+                                        "td"   : {"pmc":"Dominoes"}
+                                      },{
+                                                          "mpic" : "http://checklittle.com/images/merchants/kolkata/azadhinddhaba.jpg",
+                                                          "tg"   : "dc",
+                                                          "td"   : "some deal code"
+                                                        },
+                                                {
+                                                  "mpic" : "http://checklittle.com/images/merchants/delhi/hinglishcafe.jpg",
+                                                  "tg"   : "sq",
+                                                  "td"   : {"dt":"Restaurants"}
+                                                },{
+                                                            "mpic" : "http://checklittle.com/images/merchants/pune/rollsmania.jpg",
+                                                            "tg"   : "sq",
+                                                            "td"   : {"pmc":"Dominoes"}
+                                                          }
+      ],
+      "vtt" : "VIEW ALL"
+    },
+    {
+      "st" : "Top brands",
+      "ss" : "s",
+      "sc"  :
+      [
+        {
+          "mpic" : "http://checklittle.com/images/merchants/kolkata/azadhinddhaba.jpg",
+          "tg"   : "dc",
+          "td"   : "some deal code"
+        },
+        {
+          "mpic" : "http://checklittle.com/images/merchants/pune/rollsmania.jpg",
+          "tg"   : "sq",
+          "td"   : {"pmc":"Dominoes"}
+        },
+        {
+          "mpic" : "http://checklittle.com/images/merchants/kolkata/azadhinddhaba.jpg",
+          "tg"   : "sq",
+          "td"   : {"pmc":"Dominoes"}
+        },
+        {
+          "mpic" : "http://checklittle.com/images/merchants/kolkata/azadhinddhaba.jpg",
+          "tg"   : "sq",
+          "td"   : {"pmc":"Dominoes"}
+        },
+        {
+          "mpic" : "http://checklittle.com/images/merchants/kolkata/azadhinddhaba.jpg",
+          "tg"   : "sq",
+          "td"   : {"pmc":"Dominoes"}
+        }
+      ],
+      "vtt" : "VIEW ALL"
+    },
+         {
+           "st" : "Top hotels",
+           "ss" : "s",
+           "sc"  :
+           [
+             {
+               "mpic" : "http://checklittle.com/images/merchants/kolkata/azadhinddhaba.jpg",
+               "tg"   : "dc",
+               "td"   : "some deal code"
+             },
+             {
+               "mpic" : "http://checklittle.com/images/merchants/pune/rollsmania.jpg",
+               "tg"   : "sq",
+               "td"   : {"pmc":"Dominoes"}
+             },
+             {
+               "mpic" : "http://checklittle.com/images/merchants/kolkata/azadhinddhaba.jpg",
+               "tg"   : "sq",
+               "td"   : {"pmc":"Dominoes"}
+             },
+             {
+               "mpic" : "http://checklittle.com/images/merchants/kolkata/azadhinddhaba.jpg",
+               "tg"   : "sq",
+               "td"   : {"pmc":"Dominoes"}
+             },
+             {
+               "mpic" : "http://checklittle.com/images/merchants/kolkata/azadhinddhaba.jpg",
+               "tg"   : "sq",
+               "td"   : {"pmc":"Dominoes"}
+             }
+           ],
+           "vtt" : "VIEW ALL"
+         },
+              {
+                "st" : "Top brands",
+                "ss" : "s",
+                "sc"  :
+                [
+                  {
+                    "mpic" : "http://checklittle.com/images/merchants/kolkata/azadhinddhaba.jpg",
+                    "tg"   : "dc",
+                    "td"   : "some deal code"
+                  },
+                  {
+                    "mpic" : "http://checklittle.com/images/merchants/pune/rollsmania.jpg",
+                    "tg"   : "sq",
+                    "td"   : {"pmc":"Dominoes"}
+                  },
+                  {
+                    "mpic" : "http://checklittle.com/images/merchants/kolkata/azadhinddhaba.jpg",
+                    "tg"   : "sq",
+                    "td"   : {"pmc":"Dominoes"}
+                  },
+                  {
+                    "mpic" : "http://checklittle.com/images/merchants/kolkata/azadhinddhaba.jpg",
+                    "tg"   : "sq",
+                    "td"   : {"pmc":"Dominoes"}
+                  },
+                  {
+                    "mpic" : "http://checklittle.com/images/merchants/kolkata/azadhinddhaba.jpg",
+                    "tg"   : "sq",
+                    "td"   : {"pmc":"Dominoes"}
+                  }
+                ],
+                "vtt" : ""
+              },
+                   {
+                     "st" : "Top brands",
+                     "ss" : "s",
+                     "sc"  :
+                     [
+                       {
+                         "mpic" : "http://checklittle.com/images/merchants/kolkata/azadhinddhaba.jpg",
+                         "tg"   : "dc",
+                         "td"   : "some deal code"
+                       },
+                       {
+                         "mpic" : "http://checklittle.com/images/merchants/pune/rollsmania.jpg",
+                         "tg"   : "sq",
+                         "td"   : {"pmc":"Dominoes"}
+                       },
+                       {
+                         "mpic" : "http://checklittle.com/images/merchants/kolkata/azadhinddhaba.jpg",
+                         "tg"   : "sq",
+                         "td"   : {"pmc":"Dominoes"}
+                       },
+                       {
+                         "mpic" : "http://checklittle.com/images/merchants/kolkata/azadhinddhaba.jpg",
+                         "tg"   : "sq",
+                         "td"   : {"pmc":"Dominoes"}
+                       },
+                       {
+                         "mpic" : "http://checklittle.com/images/merchants/kolkata/azadhinddhaba.jpg",
+                         "tg"   : "sq",
+                         "td"   : {"pmc":"Dominoes"}
+                       }
+                     ],
+                     "vtt" : "VIEW ALL"
+                   },
+                        {
+                          "st" : "Top deals",
+                          "ss" : "s",
+                          "sc"  :
+                          [
+                            {
+                              "mpic" : "http://checklittle.com/images/merchants/kolkata/azadhinddhaba.jpg",
+                              "tg"   : "dc",
+                              "td"   : "some deal code"
+                            },
+                            {
+                              "mpic" : "http://checklittle.com/images/merchants/pune/rollsmania.jpg",
+                              "tg"   : "sq",
+                              "td"   : {"pmc":"Dominoes"}
+                            },
+                            {
+                              "mpic" : "http://checklittle.com/images/merchants/kolkata/azadhinddhaba.jpg",
+                              "tg"   : "sq",
+                              "td"   : {"pmc":"Dominoes"}
+                            },
+                            {
+                              "mpic" : "http://checklittle.com/images/merchants/kolkata/azadhinddhaba.jpg",
+                              "tg"   : "sq",
+                              "td"   : {"pmc":"Dominoes"}
+                            },
+                            {
+                              "mpic" : "http://checklittle.com/images/merchants/kolkata/azadhinddhaba.jpg",
+                              "tg"   : "sq",
+                              "td"   : {"pmc":"Dominoes"}
+                            }
+                          ],
+                          "vtt" : ""
+                        }, {
+                                "st" : "Some ads",
+                                "ss" : "b",
+                                "sc"  :
+                                [
+                                  {
+                                    "mpic" : "http://img5a.flixcart.com/www/promos/new/20150721_163520_730x300_home-decor-range.jpg",
+                                    "tg"   : "homedecor",
+                                    "td"   : "some deal code"
+                                  },
+                                  {
+                                  "mpic" : "http://img5a.flixcart.com/www/promos/new/20150721_163520_730x300_home-decor-range.jpg",
+                                  "tg"   : "homedecor",
+                                  "td"   : "some deal code"
+                                 },{
+                                  "mpic" : "http://img5a.flixcart.com/www/promos/new/20150721_163520_730x300_home-decor-range.jpg",
+                                  "tg"   : "homedecor",
+                                  "td"   : "some deal code"
+                                },{
+                                  "mpic" : "http://img5a.flixcart.com/www/promos/new/20150721_163520_730x300_home-decor-range.jpg",
+                                  "tg"   : "homedecor",
+                                  "td"   : "some deal code"
+                                }
+                                ],
+                                "vtt" : "",
+                                "vtg" : "sq",
+                                "vtd" : {"phrase" : "some searc json"}
+                              },
+                                   {
+                                     "st" : "Categories",
+                                     "ss" : "s",
+                                     "sc"  :
+                                     [
+                                       {
+                                         "mpic" : "http://checklittle.com/images/merchants/delhi/hinglishcafe.jpg",
+                                         "tg"   : "sq",
+                                         "td"   : {"dt":"Hotels"}
+                                       },
+                                       {
+                                         "mpic" : "http://checklittle.com/images/merchants/delhi/hinglishcafe.jpg",
+                                         "tg"   : "sq",
+                                         "td"   : {"dt":"Restaurants"}
+                                       },
+                                       {
+                                         "mpic" : "http://checklittle.com/images/merchants/delhi/hinglishcafe.jpg",
+                                         "tg"   : "sq",
+                                         "td"   : {"dt":"Restaurants"}
+                                       },
+                                       {
+                                         "mpic" : "http://checklittle.com/images/merchants/delhi/hinglishcafe.jpg",
+                                         "tg"   : "sq",
+                                         "td"   : {"dt":"Restaurants"}
+                                       },
+                                       {
+                                         "mpic" : "http://checklittle.com/images/merchants/delhi/hinglishcafe.jpg",
+                                         "tg"   : "sq",
+                                         "td"   : {"dt":"Restaurants"}
+                                       }
+                                     ],
+                                     "vtt" : "VIEW ALL"
+                                   },
+                                        {
+                                          "st" : "Categories",
+                                          "ss" : "s",
+                                          "sc"  :
+                                          [
+                                            {
+                                              "mpic" : "http://checklittle.com/images/merchants/delhi/hinglishcafe.jpg",
+                                              "tg"   : "sq",
+                                              "td"   : {"dt":"Hotels"}
+                                            },
+                                            {
+                                              "mpic" : "http://checklittle.com/images/merchants/delhi/hinglishcafe.jpg",
+                                              "tg"   : "sq",
+                                              "td"   : {"dt":"Restaurants"}
+                                            },
+                                            {
+                                              "mpic" : "http://checklittle.com/images/merchants/delhi/hinglishcafe.jpg",
+                                              "tg"   : "sq",
+                                              "td"   : {"dt":"Restaurants"}
+                                            },
+                                            {
+                                              "mpic" : "http://checklittle.com/images/merchants/delhi/hinglishcafe.jpg",
+                                              "tg"   : "sq",
+                                              "td"   : {"dt":"Restaurants"}
+                                            },
+                                            {
+                                              "mpic" : "http://checklittle.com/images/merchants/delhi/hinglishcafe.jpg",
+                                              "tg"   : "sq",
+                                              "td"   : {"dt":"Restaurants"}
+                                            }
+                                          ],
+                                          "vtt" : ""
+                                        }, {
+                                                "st" : "",
+                                                  "ss" : "b",
+                                                   "sc"  :
+                                                       [
+                                                         {
+                                                             "mpic" : "http://img5a.flixcart.com/www/promos/new/20150721_163520_730x300_home-decor-range.jpg",
+                                                                 "tg"   : "homedecor",
+                                                                     "td"   : "some deal code"
+                                                                           },
+                                                                           {
+                                                                           "mpic" : "http://img5a.flixcart.com/www/promos/new/20150721_163520_730x300_home-decor-range.jpg",
+                                                                           "tg"   : "homedecor",
+                                                                           "td"   : "some deal code"
+                                                                          },{
+                                                                           "mpic" : "http://img5a.flixcart.com/www/promos/new/20150721_163520_730x300_home-decor-range.jpg",
+                                                                           "tg"   : "homedecor",
+                                                                           "td"   : "some deal code"
+                                                                         }
+                                                                         ],
+                                                                         "vtt" : "",
+                                                                         "vtg" : "sq",
+                                                                         "vtd" : {"phrase" : "some searc json"}
+                                                                       }
+
+  ]
+}

@@ -1,0 +1,50 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/alert_dialog_rl">
+
+    <ImageView
+        android:id="@+id/map_detail_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_toRightOf="@+id/map_detail_icon"
+        android:id="@+id/result_tittle_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tittle"
+        android:textSize="20sp"
+        android:textColor="@color/textcolor1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"/>
+
+
+    <TextView
+        android:id="@+id/result_detail_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/map_detail_icon"
+        android:layout_below="@+id/result_tittle_tv"
+        android:text="address"
+        android:textSize="16sp"
+        android:textColor="@color/textcolor1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:id="@+id/dialog_dismiss_tv"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_highlight_remove_black_36dp"/>
+
+    </RelativeLayout>

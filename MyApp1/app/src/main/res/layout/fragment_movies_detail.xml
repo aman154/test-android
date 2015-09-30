@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context="com.example.aman.myapp1.fragment.MoviesDetailFragment">
+
+
+    <ImageView
+        android:id="@+id/frag_mov_det_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/m1"
+        android:layout_gravity="center|top"
+        android:transitionName="@string/movie_image_tran"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:text="Dawn of the Planet of the Apes"/>
+
+</LinearLayout>

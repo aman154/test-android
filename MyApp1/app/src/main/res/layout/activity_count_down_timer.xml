@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aman.myapp1.activity.CountDownTimerActivity">
+
+
+    <FrameLayout
+        android:id="@+id/circle_fl"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+    <ImageView
+            android:id="@+id/timer_circle"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+        />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/timer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textcolor1"
+        android:textSize="60sp"
+        android:layout_gravity="center"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/timer_circle_cover"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_shape"
+            />
+
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/finish_text"
+            android:text="finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:layout_gravity="center"
+            android:textColor="@color/textcolor1"/>
+
+    </FrameLayout>
+
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get start"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/circle_fl" />
+
+
+
+</RelativeLayout>

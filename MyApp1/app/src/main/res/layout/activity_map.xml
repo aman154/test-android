@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+      <!--  <Button
+            android:visibility="gone"
+            android:id="@+id/floting_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circle_shape"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="20dp"
+            app:foundryTypeface="dealoh"
+            android:text="@string/direction_symbol"
+            android:textColor="#fff"
+            android:textSize="30sp"
+          />-->
+
+        <Button
+            android:visibility="gone"
+            android:layout_width="60dp"
+            android:id="@+id/floting_button"
+            android:layout_height="60dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/navigator_mark"
+            android:layout_gravity="bottom|center" />
+
+    </FrameLayout>
+</RelativeLayout>

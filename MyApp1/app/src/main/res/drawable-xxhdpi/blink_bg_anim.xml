@@ -1,0 +1,10 @@
+<animation-list   android:id="@+id/myprogress" android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/blink_circle_grey" android:duration="1000" />
+    <item android:drawable="@drawable/blink_circle_green" android:duration="1000" />
+    <item android:drawable="@drawable/blink_circle_red" android:duration="1000" />
+    <item android:drawable="@drawable/blink_purple" android:duration="1000" />
+    <item android:drawable="@drawable/blink_circle_yellow" android:duration="1000" />
+    <item android:drawable="@drawable/blink_circle_blue" android:duration="1000" />
+  />
+</animation-list>

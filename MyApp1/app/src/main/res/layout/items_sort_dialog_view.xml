@@ -1,0 +1,104 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_marginBottom="1dp">
+        <TextView
+            android:text="SORT BY"
+            android:textColor="@color/textcolor1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+     android:id="@+id/sort_dialog_ll1"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_marginBottom="1dp">
+      <TextView
+       android:id="@+id/popularity_tv"
+       android:text="Popularity"
+          android:textColor="@color/textcolor1"
+          android:layout_weight="1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+        <ImageView
+            android:src="@drawable/right_tick1"
+            android:layout_weight="1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="120dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:id="@+id/sort_dialog_ll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_marginBottom="1dp">
+        <TextView
+            android:text="Price -- low to high"
+            android:textColor="@color/textcolor1"
+            android:id="@+id/sort_by_low"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:visibility="gone"
+            android:src="@drawable/right_tick1"
+            android:layout_weight="1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="70dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:id="@+id/sort_dialog_ll3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white">
+        <TextView
+            android:text="Price -- high to low"
+            android:textColor="@color/textcolor1"
+            android:id="@+id/sort_by_high"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:visibility="gone"
+            android:src="@drawable/right_tick1"
+            android:layout_weight="1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="70dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:id="@+id/container_new_ll"
+    android:background="#fff"
+    >
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/big_st_tv_ll"
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/big_st_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/textcolor1"
+            />
+
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_below="@+id/big_st_tv_ll"
+        android:id="@+id/big_images_view"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@color/yellow"/>
+
+    <RelativeLayout
+        android:layout_below="@+id/big_images_view"
+        android:id="@+id/indicator_rl"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/tab_bg">
+
+          <com.example.aman.myapp1.util.CirclePageIndicator
+              android:layout_centerVertical="true"
+              android:layout_alignParentLeft="true"
+              android:id="@+id/big_cir_indicator"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom"
+              app:fillColor="#ffffca18"
+              app:pageColor="@color/bg_1"
+              app:radius="4dp"
+              android:paddingLeft="5dp"
+              android:gravity="center_vertical"
+              android:layout_marginLeft="10dp"
+              />
+        <TextView
+            android:id="@+id/big_vtt_tv"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="VIEW ALL FEATURED DEALS"
+            android:textColor="@color/bg_1"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:layout_marginRight="15dp"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

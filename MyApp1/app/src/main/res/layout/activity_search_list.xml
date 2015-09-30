@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/search_activity_background_drawable"
+    tools:context="com.example.aman.myapp1.activity.SearchActivity"
+    >
+
+    <LinearLayout
+        android:id="@+id/search_ll_m"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary">
+        <LinearLayout
+            android:id="@+id/search_ll"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:background="@drawable/rect_shape_home_search_layout"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            >
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What's your wish today ?"
+                android:textColor="@color/white"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_weight=".4"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_action_search1"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/map_view"
+            android:layout_weight=".25"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_map_white_36dp"/>
+    </LinearLayout>
+
+    <ListView
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_below="@+id/search_ll_m"
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <FrameLayout
+        android:id="@+id/search_list_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></FrameLayout>
+
+</RelativeLayout>
