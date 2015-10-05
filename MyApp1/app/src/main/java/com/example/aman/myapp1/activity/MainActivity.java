@@ -8,6 +8,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import com.example.aman.myapp1.gif_image.GifMainActivity;
 import com.example.aman.myapp1.util.LevelView;
 import com.example.aman.myapp1.R;
 
@@ -73,7 +74,7 @@ public class MainActivity extends ActionBarActivity {
                 break;
 
             case R.id.feature3:
-                startActivity(new Intent(getApplicationContext(), TestActivity.class));
+                startActivity(new Intent(getApplicationContext(), GifMainActivity.class));
                 break;
 
             case R.id.feature4:

@@ -143,6 +143,10 @@
             android:name=".activity.SearchResultDetail"
             android:label="@string/title_activity_search_result_detail" >
         </activity>
+        <activity
+            android:name=".gif_image.GifMainActivity"
+            android:label="@string/title_activity_search_result_detail" >
+        </activity>
     </application>
 
 </manifest>
