@@ -1,0 +1,63 @@
+<RelativeLayout
+    android:id="@+id/drawer_expdlist_item_rl"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/drawer_expdlist_icon_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/drawer_expdlist_tittle_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/roboto_regular"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_centerVertical="true"
+        android:lines="1"
+        android:layout_marginLeft="72dp"
+        android:padding="5dp"/>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp">
+
+        <TextView
+            android:id="@+id/drawer_expdlist_expend_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:padding="5dp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/drawer_expdlist_colps_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:clickable="true"
+            android:padding="5dp"
+            android:visibility="gone"
+            />
+
+    </FrameLayout>
+
+
+</RelativeLayout>

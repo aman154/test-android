@@ -1,0 +1,22 @@
+<RelativeLayout
+    android:id="@+id/drawer_expdlist_childitem_rl"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@color/colorPrimaryDark"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/drawer_expdlist_child_tittle_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/roboto_regular"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:layout_centerVertical="true"
+        android:lines="1"
+        android:layout_marginLeft="72dp"
+        android:padding="5dp"/>
+
+
+</RelativeLayout>
