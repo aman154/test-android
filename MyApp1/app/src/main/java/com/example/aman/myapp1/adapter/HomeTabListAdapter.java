@@ -34,14 +34,13 @@ public class HomeTabListAdapter extends BaseAdapter implements ViewPager.OnPageC
     private final int BIG_LAYOUT = 0;
     private final int SMALL_LAYOUT = 1;
 
-    int viewPagerCount,previousState,currentState;
+    private int viewPagerCount,previousState,currentState;
 
     private Context context;
     private JSONArray hp_array;
     JSONObject hp_jsonObject;
     String ss_string_json = null;
     private LayoutInflater layoutInflater;
-  //  private LinearLayoutManager mLayoutManager;
 
     ViewHolderB b_holder = null;
     ViewHolderS s_holder = null;

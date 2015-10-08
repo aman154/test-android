@@ -1,24 +1,15 @@
 package com.example.aman.myapp1.activity;
 
-import android.app.ActionBar;
-import android.app.Activity;
-import android.app.FragmentTransaction;
 import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
-import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.aman.myapp1.R;
-import com.example.aman.myapp1.app.AppUtil;
-import com.example.aman.myapp1.fragment.Home_Tab;
+import com.example.aman.myapp1.fragment.HomeTab;
 
 public class TestActivity extends FragmentActivity {
 
@@ -60,7 +51,7 @@ public class TestActivity extends FragmentActivity {
 
                 testText.setText(removeSpeChar(filterString));*/
 
-                Home_Tab home_tab = new Home_Tab();
+                HomeTab home_tab = new HomeTab();
 
                 getSupportFragmentManager().beginTransaction().add(R.id.fragment_container, home_tab,"searchFragment").commit();
 
