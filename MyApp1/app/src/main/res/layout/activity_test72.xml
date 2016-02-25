@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.aman.myapp1.activity.Test7">
+
+    <Button
+        android:id="@+id/button_test7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="click" />
+
+    <FrameLayout
+        android:id="@+id/progressbar_fl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="5dp">
+
+        <FrameLayout
+            android:id="@+id/progressbar_circle_fl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/progressbar_circle"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/otp_screen_progressbar_circle" />
+
+            <ImageView
+                android:id="@+id/progressbar_dot"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="top|center"
+                android:background="@drawable/otp_screen_progress_bar_circle_dot" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/progressbar_counter_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/textcolor1"
+            android:textSize="20sp" />
+    </FrameLayout>
+</RelativeLayout>

@@ -21,7 +21,7 @@
             android:layout_height="match_parent">
 
             <com.example.aman.myapp1.util.CircularImageView
-                android:id="@+id/card_image_movie"
+                android:id="@+id/augment_icon_image"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:layout_margin="8dp"
@@ -42,23 +42,23 @@
                 android:rating="4.5"/>
 
             <TextView
-                android:id="@+id/card_name_movie"
+                android:id="@+id/augment_tittle_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/movie_name"
-                android:layout_toRightOf="@+id/card_image_movie"
+                android:layout_toRightOf="@+id/augment_icon_image"
                 android:textSize="20sp"
                 android:layout_marginTop="10dp"
-                android:layout_above="@+id/card_detail_movie"
-                android:layout_alignLeft="@+id/card_detail_movie"
-                android:layout_alignStart="@+id/card_detail_movie" />
+                android:layout_above="@+id/augmented_detail_tv"
+                android:layout_alignLeft="@+id/augmented_detail_tv"
+                android:layout_alignStart="@+id/augmented_detail_tv" />
 
             <TextView
-                android:id="@+id/card_detail_movie"
+                android:id="@+id/augmented_detail_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/detail"
-                android:layout_toRightOf="@+id/card_image_movie"
+                android:layout_toRightOf="@+id/augment_icon_image"
                 android:textSize="15sp"
                 android:layout_marginTop="5dp"
                 android:layout_centerVertical="true"

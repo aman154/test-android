@@ -51,12 +51,12 @@ public class TopRatedFragment extends android.support.v4.app.Fragment {
 
         //headerlist elements
         headerList = new ArrayList<HomeElement>();
-        headerList.add(new HomeElement(R.drawable.movies_top,"Movies"));
-        headerList.add(new HomeElement(R.drawable.games_top,"Games"));
-        headerList.add(new HomeElement(R.drawable.movies_top,"Movies"));
-        headerList.add(new HomeElement(R.drawable.movies_top,"Movies"));
-        headerList.add(new HomeElement(R.drawable.movies_top,"Movies"));
-        headerList.add(new HomeElement(R.drawable.movies_top,"Movies"));
+        headerList.add(new HomeElement(R.drawable.movies_top,"Movies",0));
+        headerList.add(new HomeElement(R.drawable.games_top,"Games",0));
+        headerList.add(new HomeElement(R.drawable.movies_top,"Movies",0));
+        headerList.add(new HomeElement(R.drawable.movies_top,"Movies",0));
+        headerList.add(new HomeElement(R.drawable.movies_top,"Movies",0));
+        headerList.add(new HomeElement(R.drawable.movies_top,"Movies",0));
 
         index1 = new ArrayList<String>();
         index1.add("1-1");

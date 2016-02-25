@@ -63,4 +63,9 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+  <!--  <style name="AugmentViewStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:padding">@dimen/augment_view_padding</item>
+        <item name="android:background">@color/tab_bg</item>
+    </style>-->
+
 </resources>

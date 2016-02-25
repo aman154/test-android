@@ -9,7 +9,6 @@
     <string name="action_refresh">Refresh</string>
 
 
-
     <string name="feature3">feature3</string>
     <string name="feature4">feature4</string>
     <string name="feature5">feature5</string>
@@ -73,7 +72,7 @@
     <string name="detail">Here we give the detail of the movies</string>
     <string name="movie_name">Name</string>
 
-<!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_movies__detail">Movies_Detail</string>
 
@@ -99,5 +98,12 @@
     <string name="title_activity_search_result_detail">SearchResultDetail</string>
 
     <string name="title_activity_gif_main_activity">GifMainActivity</string>
+    <string name="title_activity_deals_camera_preview">DealsCameraPreview</string>
+    <string name="title_activity_test3">Test3</string>
+    <string name="title_activity_test4">Test4</string>
+    <string name="title_activity_test5">Test5</string>
+    <string name="title_activity_test6">Test6</string>
+    <string name="title_activity_test7">Test7Activity</string>
+    <string name="title_activity_test10">Test10</string>
 
 </resources>

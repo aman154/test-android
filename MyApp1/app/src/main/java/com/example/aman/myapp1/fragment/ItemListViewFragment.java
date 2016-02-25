@@ -78,6 +78,7 @@ public class ItemListViewFragment extends Fragment implements AbsListView.OnScro
                 fragmentList.setVisibility(View.GONE);
         fragmentGird = (GridView) rootView.findViewById(R.id.fragment_gridview);
         fragmentGird.setVisibility(View.VISIBLE);
+            fragmentGird.setNumColumns(3);
         adapter = new ItemListAdapter(context,details,viewType);
         fragmentGird.setAdapter(adapter);
             fragmentGird.setSelection(listPos);

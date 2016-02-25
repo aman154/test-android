@@ -11,10 +11,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.aman.myapp1.R;
@@ -31,26 +33,15 @@ import java.util.List;
 public class Feature4 extends ActionBarActivity {
 
     private ListView listView;
- //   private ListAdapter adapter;
- //   private Detail details[];
-  //  ArrayAdapter<String> adapter1;
+//    private ListAdapter adapter;
+//    private Detail details[];
+//    ArrayAdapter<String> adapter1;
     private List<HomeElement> elements;
     private  HomeListAdapter adapter;
     int p;
 
-    /*int [] img = {R.drawable.light_bulb_pressed,R.drawable.rel_map_pressed,R.drawable.stack_pressed,R.drawable.venn_2_pressed,R.drawable.evo_revo_incr_pressed};
-    String [] name = {"aman","ambuj","alok","amit","rajesh"};
-    String [] address = {"aman","azamghar","azamghar","ghazipur","gopalganj"};*/
-/*
-    Detail detail[] = new Detail[]{new Detail(R.drawable.light_bulb_pressed,"aman","mainpuri"),
-
-            new Detail(R.drawable.light_bulb_pressed,"aman","mainpuri"),
-            new Detail(R.drawable.light_bulb_pressed,"aman","mainpuri"),
-            new Detail(R.drawable.light_bulb_pressed,"aman","mainpuri"),
-            new Detail(R.drawable.light_bulb_pressed,"aman","mainpuri")
-    };*/
-
-  /*  ArrayList<String> de = new ArrayList<String>();*/
+    int total_list_items,currentFirstVisibleItem;
+    TextView toast_tv;
 
 
 
@@ -67,6 +58,7 @@ public class Feature4 extends ActionBarActivity {
 
         init();
 
+        toast_tv = (TextView) findViewById(R.id.toast_tv);
         listView = (ListView) findViewById(R.id.list_item1);
 
        /* adapter1 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, de);
@@ -74,6 +66,32 @@ public class Feature4 extends ActionBarActivity {
 
         adapter = new HomeListAdapter(Feature4.this, R.layout.homelistview, elements);
         listView.setAdapter(adapter);
+
+
+      /*  listView.setOnScrollListener(new AbsListView.OnScrollListener() {
+            @Override
+            public void onScrollStateChanged(AbsListView view, int scrollState) {
+
+
+                Log.i("Feature4","scrollState-"+scrollState);
+
+                if(scrollState == 1 || scrollState ==2){
+                    Log.i("Feature4", "visible");
+                    toast_tv.setVisibility(View.VISIBLE);
+                    toast_tv.setText(currentFirstVisibleItem+" of "+total_list_items);
+                }else if(scrollState == 0){
+                    Log.i("Feature4", "gone");
+                    toast_tv.setVisibility(View.GONE);
+                }
+            }
+
+            @Override
+            public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
+                currentFirstVisibleItem = firstVisibleItem;
+                total_list_items = totalItemCount;
+
+            }
+        });*/
 
        /* final ListView lv = (ListView) findViewById(R.id.list_item);
         final SwipeDetector swipeDetector = new SwipeDetector();
@@ -97,7 +115,7 @@ public class Feature4 extends ActionBarActivity {
         });*/
 
 
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+      /*  listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
@@ -107,31 +125,37 @@ public class Feature4 extends ActionBarActivity {
 
                 String transitionName = getString(R.string.movie_image_tran);
 
-               /* ActivityOptions transitionActivityOptions = ActivityOptions.makeSceneTransitionAnimation(Feature4.this, iv, transitionName);
-                startActivity(i, transitionActivityOptions.toBundle());*/
+               *//* ActivityOptions transitionActivityOptions = ActivityOptions.makeSceneTransitionAnimation(Feature4.this, iv, transitionName);
+                startActivity(i, transitionActivityOptions.toBundle());*//*
 
                 ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(Feature4.this, iv, transitionName);
                 ActivityCompat.startActivity(Feature4.this, i,
                         options.toBundle());
 
             }
-        });
+        });*/
     }
     public void init(){
         elements = new ArrayList<HomeElement>();
-        elements.add(new HomeElement(R.drawable.ic_home_black_24dp,"Home"));
-        elements.add(new HomeElement(R.drawable.m1, "Dawn of the Planet of the Ape"));
-        elements.add(new HomeElement(R.drawable.m1, "Dawn of the Planet of the Ape"));
-        /*elements.add(new HomeElement(R.drawable.m2,"District 9"));
-        elements.add(new HomeElement(R.drawable.m3,"Transformers: Age of Extinction"));
-        elements.add(new HomeElement(R.drawable.m4,"X-Men: Days of Future Past"));
-        elements.add(new HomeElement(R.drawable.m5, "The Machinist"));
-        elements.add(new HomeElement(R.drawable.m6, "The Last Samurai"));
-        elements.add(new HomeElement(R.drawable.m7, "The Amazing Spider-Man 2"));
-        elements.add(new HomeElement(R.drawable.m8,"Tangled"));
-        elements.add(new HomeElement(R.drawable.m9,"Rush"));
-        elements.add(new HomeElement(R.drawable.m10,"Drag Me to Hell"));
-        elements.add(new HomeElement(R.drawable.m11, "Despicable Me 2"));
-        elements.add(new HomeElement(R.drawable.m12, "Kill Bill: Vol. 1"));*/
+        elements.add(new HomeElement(R.drawable.m1, "Dawn of the Planet of the Ape",1453121987));
+        elements.add(new HomeElement(R.drawable.m1, "Dawn of the Planet of the Ape",1453113987));
+        elements.add(new HomeElement(R.drawable.m2,"District 9",1453208387));
+        elements.add(new HomeElement(R.drawable.m3,"Transformers: Age of Extinction",1452949187));
+        elements.add(new HomeElement(R.drawable.m4,"X-Men: Days of Future Past",1454158787));
+        elements.add(new HomeElement(R.drawable.m5, "The Machinist",1454158787));
+        elements.add(new HomeElement(R.drawable.m6, "The Last Samurai",1453041661));
+        elements.add(new HomeElement(R.drawable.m7, "The Amazing Spider-Man 2",1453726787));
+        elements.add(new HomeElement(R.drawable.m8,"Tangled",1453467587));
+        elements.add(new HomeElement(R.drawable.m1, "Dawn of the Planet of the Ape",1454158787));
+        elements.add(new HomeElement(R.drawable.m1, "Dawn of the Planet of the Ape",1453294787));
+        elements.add(new HomeElement(R.drawable.m2,"District 9",1453467587));
+        elements.add(new HomeElement(R.drawable.m3,"Transformers: Age of Extinction",1453208387));
+        elements.add(new HomeElement(R.drawable.m4,"X-Men: Days of Future Past",1454158787));
+        elements.add(new HomeElement(R.drawable.m5, "The Machinist",1454158787));
+        elements.add(new HomeElement(R.drawable.m6, "The Last Samurai",1453726787));
+        elements.add(new HomeElement(R.drawable.m7, "The Amazing Spider-Man 2",1453726787));
+        elements.add(new HomeElement(R.drawable.m8,"Tangled",1453121987));
     }
+
+
 }

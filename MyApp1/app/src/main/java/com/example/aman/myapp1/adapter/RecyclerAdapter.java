@@ -1,14 +1,11 @@
 package com.example.aman.myapp1.adapter;
 
-import android.support.v7.internal.widget.AdapterViewCompat;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ImageView;
-import android.widget.RatingBar;
 import android.widget.TextView;
 
 import com.example.aman.myapp1.model.MoviesDetail;
@@ -33,9 +30,9 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.Movies
         public MoviesViewHolder(View view) {
             super(view);
             cardView = (CardView) view.findViewById(R.id.card_view);
-            m_image = (ImageView) view.findViewById(R.id.card_image_movie);
-            m_name = (TextView) view.findViewById(R.id.card_name_movie);
-            m_detail = (TextView) view.findViewById(R.id.card_detail_movie);
+            m_image = (ImageView) view.findViewById(R.id.augment_icon_image);
+            m_name = (TextView) view.findViewById(R.id.augment_tittle_tv);
+            m_detail = (TextView) view.findViewById(R.id.augmented_detail_tv);
             //m_rating = (RatingBar) view.findViewById(R.id.card_rating_movie);
 
         }

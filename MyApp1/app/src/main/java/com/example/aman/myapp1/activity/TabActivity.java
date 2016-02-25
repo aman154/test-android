@@ -8,12 +8,12 @@ import com.example.aman.myapp1.R;
 import com.example.aman.myapp1.adapter.TabAdapter;
 
 
-public class TabActivity extends FragmentActivity {
+class TabActivity extends FragmentActivity {
 
     private ViewPager viewPager;
     private TabAdapter tabAdapter;
    // private Toolbar toolbar;
-   // private TabLayout tabLayout;
+  //  private TabLayout tabLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

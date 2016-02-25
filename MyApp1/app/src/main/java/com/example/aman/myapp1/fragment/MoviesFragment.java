@@ -1,25 +1,17 @@
 package com.example.aman.myapp1.fragment;
 
 import android.support.v4.app.Fragment;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.transition.ChangeBounds;
-import android.transition.ChangeImageTransform;
-import android.transition.Fade;
-import android.transition.TransitionInflater;
-import android.transition.TransitionSet;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.example.aman.myapp1.R;
-import com.example.aman.myapp1.fragment.MoviesDetailFragment;
 import com.example.aman.myapp1.adapter.RecyclerAdapter;
 import com.example.aman.myapp1.model.MoviesDetail;
 
@@ -66,7 +58,7 @@ public class MoviesFragment extends Fragment {
 
                 MoviesDetailFragment mFragment = new MoviesDetailFragment();
 
-                ImageView image = (ImageView) view.findViewById(R.id.card_image_movie);
+                ImageView image = (ImageView) view.findViewById(R.id.augment_icon_image);
                 String transitionName = getString(R.string.movie_image_tran);
                /* TransitionSet transitionSet = new TransitionSet();
                 transitionSet.addTransition(new ChangeImageTransform());

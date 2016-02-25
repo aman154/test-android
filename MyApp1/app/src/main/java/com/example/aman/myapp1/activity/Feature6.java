@@ -48,7 +48,7 @@ public class Feature6 extends ActionBarActivity {
 
     }
 
-    public class MyCountDownTimer extends CountDownTimer {
+    private class MyCountDownTimer extends CountDownTimer {
 
                 public MyCountDownTimer(long millisInFuture, long countDownInterval) {
                     super(millisInFuture, countDownInterval);

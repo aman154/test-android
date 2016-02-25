@@ -29,6 +29,8 @@
     <color name="tab_bg">#EEEEEE</color>
     <color name="yellow">#FFE32F</color>
 
+    <color name="grey_transparant" >#952d3536</color>
+
 
 
 </resources>

@@ -46,12 +46,12 @@ public class Home extends android.support.v4.app.Fragment {
 
     public void init(){
         elements = new ArrayList<>();
-        elements.add(new HomeElement(R.drawable.ic_home_black_24dp,"Home"));
-        elements.add(new HomeElement(R.drawable.ic_person_black_24dp,"Friends"));
-        elements.add(new HomeElement(R.drawable.ic_find_in_page_black_24dp,"Search"));
-        elements.add(new HomeElement(R.drawable.ic_notifications_black_24dp,"Notification"));
-        elements.add(new HomeElement(R.drawable.ic_group_black_24dp,"Groups"));
-        elements.add(new HomeElement(R.drawable.ic_settings_black_24dp,"Setting"));
+        elements.add(new HomeElement(R.drawable.ic_home_black_24dp,"Home",0));
+        elements.add(new HomeElement(R.drawable.ic_person_black_24dp,"Friends",0));
+        elements.add(new HomeElement(R.drawable.ic_find_in_page_black_24dp,"Search",0));
+        elements.add(new HomeElement(R.drawable.ic_notifications_black_24dp,"Notification",0));
+        elements.add(new HomeElement(R.drawable.ic_group_black_24dp,"Groups",0));
+        elements.add(new HomeElement(R.drawable.ic_settings_black_24dp,"Setting",0));
     }
 
 }

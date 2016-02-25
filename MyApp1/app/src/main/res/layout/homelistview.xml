@@ -2,10 +2,17 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:orientation="horizontal">
+    android:orientation="vertical">
 
 
-    <ImageView
+    <com.example.aman.myapp1.util.AugmentView
+        android:id="@+id/augment_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/augment_view_padding"
+        />
+
+ <!--   <ImageView
         android:id="@+id/homelist_image"
         android:layout_width="100dp"
         android:transitionName="@string/movie_image_tran"
@@ -24,6 +31,6 @@
         android:layout_marginTop="18dp"
         android:layout_marginBottom="10dp"
         android:textColor="@color/textcolor1"
-        android:textSize="16sp"/>
+        android:textSize="16sp"/>-->
 
 </LinearLayout>

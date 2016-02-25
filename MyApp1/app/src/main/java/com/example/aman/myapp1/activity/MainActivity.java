@@ -66,19 +66,19 @@ public class MainActivity extends ActionBarActivity {
         switch (id){
 
             case R.id.feature1:
-                startActivity(new Intent(getApplicationContext(),SearchActivity.class));
+                startActivity(new Intent(getApplicationContext(),Test10.class));
                 break;
 
             case R.id.feature2:
-                startActivity(new Intent(getApplicationContext(), ItemListActivity.class));
+                startActivity(new Intent(getApplicationContext(), Feature4.class));
                 break;
 
             case R.id.feature3:
-                startActivity(new Intent(getApplicationContext(), GifMainActivity.class));
+                startActivity(new Intent(getApplicationContext(), Feature6.class));
                 break;
 
             case R.id.feature4:
-                startActivity(new Intent(getApplicationContext(), Feature4.class));
+                startActivity(new Intent(getApplicationContext(), SeekBarActivity.class));
                 break;
 
             case R.id.feature5:
@@ -86,7 +86,7 @@ public class MainActivity extends ActionBarActivity {
                 break;
 
             case R.id.feature6:
-                startActivity(new Intent(getApplicationContext(), MapActivity.class));
+                startActivity(new Intent(getApplicationContext(), SearchActivity.class));
                 break;
 
             default:

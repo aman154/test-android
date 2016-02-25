@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.aman.myapp1" >
+    package="com.example.aman.myapp1">
 
     <permission
         android:name="com.example.aman.mapapp.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
 
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
@@ -21,7 +23,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyBIcTvsWf_N6Kb70B9lLrqx9O-0WZWfpDU" />
@@ -36,7 +38,7 @@
 
         <activity
             android:name=".activity.MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -45,108 +47,116 @@
         </activity>
         <activity
             android:name=".activity.Feature1"
-            android:label="@string/title_activity_feature1" >
-        </activity>
+            android:label="@string/title_activity_feature1"></activity>
         <activity
             android:name=".activity.Feature2"
-            android:label="@string/title_activity_feature2" >
-        </activity>
+            android:label="@string/title_activity_feature2"></activity>
         <activity
             android:name=".activity.UserReg"
-            android:label="@string/title_activity_user_reg" >
-        </activity>
+            android:label="@string/title_activity_user_reg"></activity>
         <activity
             android:name=".activity.Feature3"
-            android:label="@string/title_activity_feature3" >
-        </activity>
+            android:label="@string/title_activity_feature3"></activity>
         <activity
             android:name=".activity.ReferFriends"
-            android:label="@string/title_activity_refer_friends" >
-        </activity>
+            android:label="@string/title_activity_refer_friends"></activity>
         <activity
             android:name=".activity.SeekBarActivity"
-            android:label="@string/title_activity_seek_bar" >
-        </activity>
+            android:label="@string/title_activity_seek_bar"></activity>
         <activity
             android:name=".activity.Feature4"
-            android:label="@string/title_activity_feature4" >
-        </activity>
+            android:label="@string/title_activity_feature4"></activity>
         <activity
             android:name=".activity.Rate_deal"
-            android:label="@string/title_activity_rate_deal" >
-        </activity>
+            android:label="@string/title_activity_rate_deal"></activity>
         <activity
             android:name=".activity.Feature6"
-            android:label="@string/title_activity_feature6" >
-        </activity>
+            android:label="@string/title_activity_feature6"></activity>
         <activity
             android:name=".activity.MaterialDesign1"
-            android:label="@string/title_activity_material_design1" >
-        </activity>
+            android:label="@string/title_activity_material_design1"></activity>
         <activity
             android:name=".activity.TabActivity"
-            android:label="@string/title_activity_tab" >
-        </activity>
+            android:label="@string/title_activity_tab"></activity>
         <activity
             android:name=".activity.Movies_Detail"
-            android:label="@string/title_activity_movies__detail" >
-        </activity>
+            android:label="@string/title_activity_movies__detail"></activity>
         <activity
             android:name=".activity.MapActivity"
-            android:label="@string/title_activity_map" >
-        </activity>
+            android:label="@string/title_activity_map"></activity>
         <activity
             android:name=".activity.GraphLine"
-            android:label="@string/title_activity_graph_line" >
-        </activity>
+            android:label="@string/title_activity_graph_line"></activity>
         <activity
             android:name=".activity.GraphExample"
-            android:label="@string/title_activity_graph_example" >
-        </activity>
+            android:label="@string/title_activity_graph_example"></activity>
         <activity
             android:name=".activity.AnimatedActivity"
-            android:label="@string/title_activity_animated" >
-        </activity>
+            android:label="@string/title_activity_animated"></activity>
         <activity
             android:name=".ListActivity"
-            android:label="@string/title_activity_list" >
-        </activity>
+            android:label="@string/title_activity_list"></activity>
         <activity
             android:name=".activity.TestActivity"
-            android:label="@string/title_activity_test" >
-        </activity>
+            android:label="@string/title_activity_test"></activity>
         <activity
             android:name=".activity.CountDownTimerActivity"
-            android:label="@string/title_activity_count_down_timer" >
-        </activity>
+            android:label="@string/title_activity_count_down_timer"></activity>
         <activity
             android:name=".activity.PlacePickerActivity"
-            android:label="@string/title_activity_place_picker" >
-        </activity>
+            android:label="@string/title_activity_place_picker"></activity>
         <activity
             android:name=".activity.SearchActivity"
-            android:label="@string/title_activity_search" >
-        </activity>
+            android:label="@string/title_activity_search"></activity>
         <activity
             android:name=".activity.SearchListActivity"
-            android:label="@string/title_activity_search_list" >
-        </activity>
+            android:label="@string/title_activity_search_list"></activity>
         <activity
             android:name=".activity.TestActivity1"
-            android:label="@string/title_activity_test_activity1" >
-        </activity>
+            android:label="@string/title_activity_test_activity1"></activity>
         <activity
             android:name=".activity.ItemListActivity"
-            android:label="@string/title_activity_item_list" >
-        </activity>
+            android:label="@string/title_activity_item_list"></activity>
         <activity
             android:name=".activity.SearchResultDetail"
-            android:label="@string/title_activity_search_result_detail" >
-        </activity>
+            android:label="@string/title_activity_search_result_detail"></activity>
         <activity
             android:name=".gif_image.GifMainActivity"
-            android:label="@string/title_activity_search_result_detail" >
-        </activity>
+            android:label="@string/title_activity_search_result_detail"></activity>
+        <activity
+            android:name=".activity.DealsCameraPreview"
+            android:label="@string/title_activity_deals_camera_preview"></activity>
+        <activity
+            android:name=".activity.Test3"
+            android:label="@string/title_activity_test3"></activity>
+        <activity
+            android:name=".activity.CenterLockActivity"
+            android:label="@string/title_activity_test3"></activity>
+        <activity
+            android:name=".activity.Test4"
+            android:label="@string/title_activity_test4"></activity>
+        <activity
+            android:name=".activity.Test5"
+            android:label="@string/title_activity_test5"></activity>
+        <activity
+            android:name=".activity.Test6"
+            android:label="@string/title_activity_test6"></activity>
+        <activity
+            android:name=".activity.Test7Activity"
+            android:label="@string/title_activity_test7"
+            android:windowSoftInputMode="stateVisible|adjustResize"></activity>
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true"></service>
+
+        <activity
+            android:name=".activity.Test7"
+            android:label="@string/title_activity_test7"></activity>
+        <activity
+            android:name=".activity.Test10"
+            android:label="@string/title_activity_test10"></activity>
     </application>
 
 </manifest>

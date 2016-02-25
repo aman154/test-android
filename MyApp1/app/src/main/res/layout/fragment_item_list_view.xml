@@ -21,7 +21,7 @@
         android:verticalSpacing="1dp"
         android:stretchMode="columnWidth"
         android:background="@color/tab_bar_bg"
-        android:numColumns="2"
+
         />
 
 </RelativeLayout>
