@@ -13,6 +13,7 @@ import java.io.IOException;
 /**
  * Created by aman on 3/3/16.
  */
+
 public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback {
     private static final String TAG = "CameraPreview";
     private SurfaceHolder mHolder;
@@ -20,8 +21,8 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
     private Camera.CameraInfo mCameraInfo;
     private int mDisplayOrientation;
 
-    public CameraPreview(Activity activity, Camera camera,Camera.CameraInfo cameraInfo,int displayRotation) {
-        super(activity);
+    public CameraPreview(Context context, Camera camera,Camera.CameraInfo cameraInfo,int displayRotation) {
+        super(context);
 
         if(camera == null && cameraInfo == null){
             return;

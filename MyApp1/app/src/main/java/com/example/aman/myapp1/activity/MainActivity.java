@@ -70,23 +70,23 @@ public class MainActivity extends ActionBarActivity {
                 break;
 
             case R.id.feature2:
-                startActivity(new Intent(getApplicationContext(), Feature4.class));
+                startActivity(new Intent(getApplicationContext(), SearchActivity.class));
                 break;
 
             case R.id.feature3:
-                startActivity(new Intent(getApplicationContext(), Feature6.class));
+                startActivity(new Intent(getApplicationContext(), ItemListActivity.class));
                 break;
 
             case R.id.feature4:
-                startActivity(new Intent(getApplicationContext(), SeekBarActivity.class));
+                startActivity(new Intent(getApplicationContext(), GifMainActivity.class));
                 break;
 
             case R.id.feature5:
-                startActivity(new Intent(getApplicationContext(), TabActivity.class));
+                startActivity(new Intent(getApplicationContext(), PlacePickerActivity.class));
                 break;
 
             case R.id.feature6:
-                startActivity(new Intent(getApplicationContext(), SearchActivity.class));
+                startActivity(new Intent(getApplicationContext(), TestActivity.class));
                 break;
 
             default:
