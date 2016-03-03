@@ -66,7 +66,7 @@ public class MainActivity extends ActionBarActivity {
         switch (id){
 
             case R.id.feature1:
-                startActivity(new Intent(getApplicationContext(),Test10.class));
+                startActivity(new Intent(getApplicationContext(),CameraTest.class));
                 break;
 
             case R.id.feature2:

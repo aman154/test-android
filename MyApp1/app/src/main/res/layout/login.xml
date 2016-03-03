@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content" />
             <EditText
                 android:padding="8dp"
-                android:background="null"
+                android:background="@drawable/login"
                 android:hint="Password"
                 android:drawablePadding="5dp"
                 android:drawableLeft="@drawable/ic_group_black_24dp"

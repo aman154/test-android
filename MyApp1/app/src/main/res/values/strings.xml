@@ -105,5 +105,7 @@
     <string name="title_activity_test6">Test6</string>
     <string name="title_activity_test7">Test7Activity</string>
     <string name="title_activity_test10">Test10</string>
+    <string name="title_activity_camera_test">CameraTest</string>
+    <string name="title_activity_camera_photo_view">CameraPhotoView</string>
 
 </resources>

@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aman.myapp1.activity.CameraTest"
+    android:background="@color/line_grey">
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:id="@+id/camera_view_rl"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/white_card_rounded"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/textcolor1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please upload your bill" />
+
+        <ImageView
+            android:id="@+id/camera_preview_iv"
+            android:layout_below="@+id/text_"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/retake_photo_bt"
+            android:background="@color/city_layout_line"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Retake"/>
+
+        <Button
+            android:id="@+id/upload_photo_bt"
+            android:background="@color/profile_tab_green_old"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=" Upload" />
+    </LinearLayout>
+
+</RelativeLayout>
