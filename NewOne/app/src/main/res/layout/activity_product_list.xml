@@ -1,0 +1,71 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Home">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/hp_detail_collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:fitsSystemWindows="true"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:id="@+id/hp_detail_page_iv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minHeight="100dp"
+                android:scaleType="fitXY"
+                android:fitsSystemWindows="true"
+                android:transitionName="@string/home_list_image_transition"
+                app:layout_collapseMode="parallax" />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/hp_detail_toolbar"
+                android:layout_width="match_parent"
+                android:layout_gravity="top"
+                android:layout_height="101dp"
+                android:minHeight="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:layout_scrollFlags="scroll|enterAlways"
+                android:contentInsetRight="10dp"
+                app:titleMarginBottom="60dp"
+                app:theme="@style/ToolbarTheme" />
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/homedetail_list_tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                app:tabIndicatorColor="@color/text_white"
+                app:tabMode="scrollable"
+                app:tabSelectedTextColor="@android:color/white"
+                app:tabTextColor="#99ffffff" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/hp_detail_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+    <!--<android.support.v7.widget.RecyclerView
+        android:id="@+id/hp_detail_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ecb3b3b3"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />-->
+
+</android.support.design.widget.CoordinatorLayout>
