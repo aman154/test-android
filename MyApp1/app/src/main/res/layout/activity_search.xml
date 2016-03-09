@@ -52,8 +52,8 @@
         android:layout_marginRight="3dp"
         android:layout_marginBottom="3dp"
         android:layout_below="@+id/search_ll_m"
-        android:id="@+id/map"
-        android:name="com.google.android.gms.maps.SupportMapFragment"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:id="@+id/search_map"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         />

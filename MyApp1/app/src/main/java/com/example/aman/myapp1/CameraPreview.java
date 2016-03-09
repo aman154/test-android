@@ -21,10 +21,10 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
     private Camera.CameraInfo mCameraInfo;
     private int mDisplayOrientation;
 
-    public CameraPreview(Context context, Camera camera,Camera.CameraInfo cameraInfo,int displayRotation) {
+    public CameraPreview(Context context, Camera camera, Camera.CameraInfo cameraInfo, int displayRotation) {
         super(context);
 
-        if(camera == null && cameraInfo == null){
+        if (camera == null && cameraInfo == null) {
             return;
         }
 
@@ -42,8 +42,8 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
     public void surfaceCreated(SurfaceHolder holder) {
         // The Surface has been created, now tell the camera where to draw the preview.
         try {
-                mCamera.setPreviewDisplay(mHolder);
-                mCamera.startPreview();
+            mCamera.setPreviewDisplay(mHolder);
+            mCamera.startPreview();
         } catch (IOException e) {
             Log.d(TAG, "Error setting camera preview: " + e.getMessage());
         }
@@ -57,7 +57,7 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
         // If your preview can change or rotate, take care of those events here.
         // Make sure to stop the preview before resizing or reformatting it.
 
-        if (mHolder.getSurface() == null){
+        if (mHolder.getSurface() == null) {
             // preview surface does not exist
             return;
         }
@@ -68,7 +68,7 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
         // stop preview before making changes
         try {
             mCamera.stopPreview();
-        } catch (Exception e){
+        } catch (Exception e) {
             // ignore: tried to stop a non-existent preview
         }
 
@@ -80,14 +80,14 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
             mCamera.setPreviewDisplay(mHolder);
             mCamera.startPreview();
 
-        } catch (Exception e){
+        } catch (Exception e) {
             Log.d(TAG, "Error starting camera preview: " + e.getMessage());
         }
     }
 
     /**
      * Calculate the correct orientation for a {@link Camera} preview that is displayed on screen.
-     *
+     * <p/>
      * Implementation is based on the sample code provided in
      * {@link Camera#setDisplayOrientation(int)}.
      */

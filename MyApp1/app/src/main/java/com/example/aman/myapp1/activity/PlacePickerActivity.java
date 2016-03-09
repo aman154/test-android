@@ -21,7 +21,7 @@ public class PlacePickerActivity extends ActionBarActivity {
 
     TextView pick_detail;
     Button picker_button;
-    private static final int REQUEST_CODE = 1;
+    private static final int REQUEST_CODE = 2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,23 +35,21 @@ public class PlacePickerActivity extends ActionBarActivity {
             @Override
             public void onClick(View v) {
 
-
                 try{
-
                     PlacePicker.IntentBuilder intentBuilder = new PlacePicker.IntentBuilder();
                     Intent intent = intentBuilder.build(getApplicationContext());
 
                     startActivityForResult(intent,REQUEST_CODE);
 
-
-                }catch (GooglePlayServicesRepairableException e){
+                }catch (GooglePlayServicesRepairableException e)
+                {
                     GooglePlayServicesUtil.getErrorDialog(e.getConnectionStatusCode(),PlacePickerActivity.this,0);
-                }catch (GooglePlayServicesNotAvailableException e){
+                }catch (GooglePlayServicesNotAvailableException e)
+                {
                     e.printStackTrace();
                 }
             }
         });
-
     }
 
 

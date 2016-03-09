@@ -90,7 +90,7 @@
     <string name="title_activity_place_picker">PlacePicker</string>
 
 
-    <string name="detail_text">Title: %1$s\nPlace id: %2$s\nAddress: %3$s\nPhone: %4$s\n\n%5$s</string>
+    <string name="detail_text">Title: %1$s\nPlace id: %2$s\nAddress: %3$s\nPhone: %4$s\nAttribute: %5$s</string>
     <string name="title_activity_search">SearchActivity</string>
     <string name="title_activity_search_list">SearchListActivity</string>
     <string name="title_activity_test_activity1">TestActivity1</string>
@@ -107,5 +107,6 @@
     <string name="title_activity_test10">Test10</string>
     <string name="title_activity_camera_test">CameraTest</string>
     <string name="title_activity_camera_photo_view">CameraPhotoView</string>
+    <string name="title_activity_place_search_list">PlaceSearchListActivity</string>
 
 </resources>

@@ -36,6 +36,8 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.gms.maps.model.Polyline;
+import com.google.android.gms.maps.model.PolylineOptions;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Target;
 
@@ -76,7 +78,7 @@ public class SearchActivity extends FragmentActivity implements OnMapReadyCallba
         search_ll.setOnClickListener(this);
         list_view.setOnClickListener(this);
 
-        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.search_map);
         mapFragment.getMapAsync(this);
     }
 
@@ -95,6 +97,7 @@ public class SearchActivity extends FragmentActivity implements OnMapReadyCallba
 
        /* lat = 12.8868343;
         lng = 77.5960655;*/
+
 
         if(lat != 0 && lng != 0) {
             LatLng latLng = new LatLng(lat, lng);
@@ -209,6 +212,12 @@ public class SearchActivity extends FragmentActivity implements OnMapReadyCallba
             intent.putExtra("resultArray",placeResults);
             /*intent.putExtra("lat",lat);
             intent.putExtra("lng",lng);
+
+
+
+
+
+
             if(placeType != null){intent.putExtra("searchText",placeType);}else{
             intent.putExtra("searchText",placeTypes);}*/
             startActivity(intent);

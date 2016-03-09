@@ -31,11 +31,9 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-        <!--
-            <meta-data
+        <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyDgpkdlHyCjPFUw-SV1BUCIJOgdAvnVUfI" />
-        -->
 
         <activity
             android:name=".activity.MainActivity"
@@ -166,6 +164,10 @@
         <activity
             android:name=".activity.CameraPhotoView"
             android:label="@string/title_activity_camera_photo_view" >
+        </activity>
+        <activity
+            android:name=".activity.PlaceSearchListActivity"
+            android:label="@string/title_activity_place_search_list" >
         </activity>
     </application>
 

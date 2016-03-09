@@ -70,7 +70,7 @@ public class MainActivity extends ActionBarActivity {
                 break;
 
             case R.id.feature2:
-                startActivity(new Intent(getApplicationContext(), SearchActivity.class));
+                startActivity(new Intent(getApplicationContext(), PlaceSearchListActivity.class));
                 break;
 
             case R.id.feature3:
