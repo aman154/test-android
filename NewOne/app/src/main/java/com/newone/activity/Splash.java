@@ -40,7 +40,7 @@ public class Splash extends Activity {
 
         progressDialog = (ProgressBar) findViewById(R.id.splash_progress_dialog);
         mResultReceiver = new AddressResultReceiver(new Handler());
-        if(AppUtil.isConnectingToInternet(this)){
+        if(AppUtil.isConnectedToInternet(this)){
             new SplashAsycTask().execute();
         }else{
             Dialog dialog = new Dialog(this);
@@ -85,7 +85,9 @@ public class Splash extends Activity {
 
         @Override
         protected void onPostExecute(Boolean b) {
-
+            if(b) {
+                startIntentService();
+            }
         }
     }
 
@@ -94,7 +96,7 @@ public class Splash extends Activity {
             @Override
             public void onConnectedCallback(Bundle bundle) {
                 mLastLocation = findUserLocation.getLastLocation();
-                startIntentService();
+
             }
             @Override
             public void onConnectionSuspendedCallback(int i) {
@@ -133,6 +135,7 @@ public class Splash extends Activity {
 
      // Receiver for data sent from FetchAddressIntentService.
     class AddressResultReceiver extends ResultReceiver {
+         private Creator<ResultReceiver> CREATOR = null;
 
         public AddressResultReceiver(Handler handler) {
             super(handler);

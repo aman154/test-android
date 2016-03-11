@@ -9,7 +9,7 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-    
+
 
     <style name="ToolbarTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="windowActionModeOverlay">false</item>
@@ -26,7 +26,7 @@
         <item name="android:src">@drawable/ic_more_vert_white_24dp</item>
     </style>
 
- <!--   <style name="CustomBackButtonStyle">
+    <!--   <style name="CustomBackButtonStyle">
         <item name="android:src">@drawable/ic_action_back</item>
     </style>-->
 
@@ -56,9 +56,14 @@
     </style>
 
     <style name="progress_dialog_style" parent="android:Widget.Holo.ProgressBar.Large">
-        <item name="android:progressBarStyle">@android:style/Widget.Holo.Light.ProgressBar.Large</item>
+        <item name="android:progressBarStyle">@android:style/Widget.Holo.Light.ProgressBar.Large
+        </item>
         <item name="android:textColor">@android:color/black</item>
         <item name="android:windowBackground">@android:color/transparent</item>
     </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>

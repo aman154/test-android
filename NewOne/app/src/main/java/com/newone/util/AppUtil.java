@@ -17,7 +17,7 @@ public class AppUtil {
     /**
      * Checking for all possible internet providers
      * **/
-    public static boolean isConnectingToInternet(Context context){
+    public static boolean isConnectedToInternet(Context context){
         ConnectivityManager connectivity = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
         if (connectivity != null)
         {
