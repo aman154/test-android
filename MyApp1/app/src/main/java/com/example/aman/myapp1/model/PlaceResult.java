@@ -1,5 +1,8 @@
 package com.example.aman.myapp1.model;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -9,7 +12,7 @@ import java.io.Serializable;
 /**
  * Created by aman on 11/9/15.
  */
-public class PlaceResult implements Serializable {
+public class PlaceResult implements Parcelable {
 
     private String name;
     private String icon;
@@ -20,6 +23,45 @@ public class PlaceResult implements Serializable {
     private Double rating;
     private String photoRef;
     private static final double DefaultRating = 3.0;
+
+    protected PlaceResult(){
+    }
+
+    protected PlaceResult(Parcel in) {
+        name = (String) in.readValue(String.class.getClassLoader());
+        icon = (String) in.readValue(String.class.getClassLoader());
+        id = (String) in.readValue(String.class.getClassLoader());
+        lat = (Double) in.readValue(Double.class.getClassLoader());
+        lng = (Double) in.readValue(Double.class.getClassLoader());
+        address = (String) in.readValue(String.class.getClassLoader());
+        rating = (Double) in.readValue(Double.class.getClassLoader());
+        photoRef = (String) in.readValue(String.class.getClassLoader());
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeValue(name);
+        dest.writeValue(icon);
+        dest.writeValue(id); dest.writeValue(lat); dest.writeValue(lng); dest.writeValue(address); dest.writeValue(rating); dest.writeValue(photoRef);
+    }
+
+    @SuppressWarnings("unused")
+    public static final Parcelable.Creator<PlaceResult> CREATOR = new Parcelable.Creator<PlaceResult>() {
+        @Override
+        public PlaceResult createFromParcel(Parcel in) {
+            return new PlaceResult(in);
+        }
+
+        @Override
+        public PlaceResult[] newArray(int size) {
+            return new PlaceResult[size];
+        }
+    };
 
 
     public String getName() {

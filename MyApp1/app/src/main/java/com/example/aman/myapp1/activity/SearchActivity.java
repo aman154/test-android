@@ -180,7 +180,7 @@ public class SearchActivity extends FragmentActivity implements OnMapReadyCallba
                         public void onClick(View v) {
 
                             Intent intent = new Intent(SearchActivity.this,SearchResultDetail.class);
-                            intent.putExtra("result",results);
+                            //intent.putExtra("result",results);
                             startActivity(intent);
                         }
                     });

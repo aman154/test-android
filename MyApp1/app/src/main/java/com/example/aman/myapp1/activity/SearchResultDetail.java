@@ -28,7 +28,7 @@ public class SearchResultDetail extends ActionBarActivity {
 
         if(bundle != null){
 
-            result = (PlaceResult) bundle.getSerializable("result");
+            result = bundle.getParcelable("result");
 
         }
 

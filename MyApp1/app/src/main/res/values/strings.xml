@@ -108,5 +108,6 @@
     <string name="title_activity_camera_test">CameraTest</string>
     <string name="title_activity_camera_photo_view">CameraPhotoView</string>
     <string name="title_activity_place_search_list">PlaceSearchListActivity</string>
+    <string name="title_activity_android_rotate_test">AndroidRotateTest</string>
 
 </resources>

@@ -136,6 +136,5 @@ public class UserLocation extends Service implements LocationListener {
     @Override
     public IBinder onBind(Intent arg0) {
         return null;
-
     }
 }

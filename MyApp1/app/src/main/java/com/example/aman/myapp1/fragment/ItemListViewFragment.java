@@ -40,6 +40,10 @@ public class ItemListViewFragment extends Fragment implements AbsListView.OnScro
     private int listPosition = 0;
     private int listPos = 0;
 
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -47,6 +51,8 @@ public class ItemListViewFragment extends Fragment implements AbsListView.OnScro
         rootView = inflater.inflate(R.layout.fragment_item_list_view, container, false);
 
         context = this.getActivity();
+
+        //setRetainInstance(true);
 
         try{
         viewType = getArguments().getInt("viewType");

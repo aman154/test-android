@@ -108,13 +108,18 @@
 
     </LinearLayout>
 
-    <fragment
+   <!-- <fragment
         android:id="@+id/items_list_fragment"
         android:layout_below="@+id/item_list_header_ll"
-        android:name="com.example.aman.myapp1.fragment.ItemListViewFragment"
+        class="com.example.aman.myapp1.fragment.ItemListViewFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout="@layout/fragment_item_list_view"
-        />
+        />-->
+    <FrameLayout
+        android:id="@+id/items_list_fragment"
+        android:layout_below="@+id/item_list_header_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 </RelativeLayout>
