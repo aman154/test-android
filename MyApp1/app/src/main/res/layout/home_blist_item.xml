@@ -9,7 +9,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="3dp"
-        android:scaleType="centerCrop"
+        android:scaleType="fitXY"
+        android:transitionName="@string/movie_image_tran"
         />
 
 </LinearLayout>

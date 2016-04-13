@@ -8,6 +8,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import com.example.aman.myapp1.demo.DemoMainActivity;
+import com.example.aman.myapp1.game_test.GameMainActivity;
 import com.example.aman.myapp1.gif_image.GifMainActivity;
 import com.example.aman.myapp1.util.LevelView;
 import com.example.aman.myapp1.R;
@@ -66,11 +68,11 @@ public class MainActivity extends ActionBarActivity {
         switch (id){
 
             case R.id.feature1:
-                startActivity(new Intent(getApplicationContext(),CameraTest.class));
+                startActivity(new Intent(getApplicationContext(),CircularViewPagerActvity.class));
                 break;
 
             case R.id.feature2:
-                startActivity(new Intent(getApplicationContext(), PlaceSearchListActivity.class));
+                startActivity(new Intent(getApplicationContext(), DemoMainActivity.class));
                 break;
 
             case R.id.feature3:
@@ -78,11 +80,11 @@ public class MainActivity extends ActionBarActivity {
                 break;
 
             case R.id.feature4:
-                startActivity(new Intent(getApplicationContext(), GifMainActivity.class));
+                startActivity(new Intent(getApplicationContext(), TabActivity.class));
                 break;
 
             case R.id.feature5:
-                startActivity(new Intent(getApplicationContext(), PlacePickerActivity.class));
+                startActivity(new Intent(getApplicationContext(), GameMainActivity.class));
                 break;
 
             case R.id.feature6:

@@ -158,7 +158,7 @@ public class HomeTabListAdapter extends BaseAdapter implements ViewPager.OnPageC
 
                 }
 
-                bListAdapter = new HomePageBListAdapter(context,sc_jsonArray,b_holder.big_images_view);
+                bListAdapter = new HomePageBListAdapter(context,null,sc_jsonArray,b_holder.big_images_view);
 
                 b_holder.big_images_view.setAdapter(bListAdapter);
 
@@ -230,7 +230,6 @@ public class HomeTabListAdapter extends BaseAdapter implements ViewPager.OnPageC
 
     @Override
     public void onPageScrollStateChanged(int state) {
-
         int currentPage = b_holder.big_images_view.getCurrentItem();
 
         if (currentPage == viewPagerCount-1 || currentPage == 0) {

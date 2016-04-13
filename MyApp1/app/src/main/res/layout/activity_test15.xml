@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.aman.myapp1.activity.Test15">
+
+    <EditText
+        android:id="@+id/test15_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/test15_et"
+        android:id="@+id/test15_bt"
+        android:text="check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:background="@drawable/whatsapp_bg_drawble"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/test15_bt_click"
+        android:text="click"
+        android:layout_width="200dp"
+        android:layout_height="100dp" />
+
+</RelativeLayout>

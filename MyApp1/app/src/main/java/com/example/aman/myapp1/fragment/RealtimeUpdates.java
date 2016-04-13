@@ -46,8 +46,8 @@ public class RealtimeUpdates extends Fragment {
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
-     /*   ((MainActivity) activity).onSectionAttached(
-                getArguments().getInt(MainActivity.ARG_SECTION_NUMBER));*/
+     /*   ((DemoMainActivity) activity).onSectionAttached(
+                getArguments().getInt(DemoMainActivity.ARG_SECTION_NUMBER));*/
     }
 
     @Override

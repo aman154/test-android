@@ -159,13 +159,35 @@
         <activity
             android:name=".activity.CameraTest"
             android:label="@string/title_activity_camera_test"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activity.CameraPhotoView"
-            android:label="@string/title_activity_camera_photo_view"/>
+            android:label="@string/title_activity_camera_photo_view" />
         <activity
             android:name=".activity.PlaceSearchListActivity"
-            android:label="@string/title_activity_place_search_list"/>
+            android:label="@string/title_activity_place_search_list" />
+        <activity
+            android:name=".game_test.GameMainActivity"
+            android:label="@string/title_activity_game_main"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.TestActionSend"
+            android:label="@string/title_activity_test_action_send" />
+        <activity
+            android:name=".activity.Test15"
+            android:label="@string/title_activity_test15"/>
+        <activity
+            android:name=".activity.ViewPagerActivity"
+            android:label="@string/title_activity_view_pager"/>
+        <activity
+            android:name=".activity.ViewPagerZoom"
+            android:label="@string/title_activity_view_pager_zoom"/>
+        <activity
+            android:name=".activity.CircularViewPagerActvity"
+            android:label="@string/title_activity_circular_view_pager_actvity"/>
+        <activity
+            android:name=".demo.DemoMainActivity"
+            android:label="@string/title_activity_game_main"/>
     </application>
 
 </manifest>

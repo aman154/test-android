@@ -163,11 +163,14 @@ public class PlacesService  {
         place_url.append(",");
         place_url.append(Double.toString(lng));
 
+        //we/you can use only one param (rankby or radius) for google place api search.
+        //place_url.append("&rankby=distance");
+
         if(place != null && !place.isEmpty() && place.length() >0 ){
             place_url.append("&types=");
             place_url.append(place);
         }
-        place_url.append("&radius=1000");
+        place_url.append("&radius=500");
         place_url.append("&sensor=false&key="+API_KEY);
 
         return place_url.toString();

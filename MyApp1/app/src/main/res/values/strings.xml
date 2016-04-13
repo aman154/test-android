@@ -109,5 +109,11 @@
     <string name="title_activity_camera_photo_view">CameraPhotoView</string>
     <string name="title_activity_place_search_list">PlaceSearchListActivity</string>
     <string name="title_activity_android_rotate_test">AndroidRotateTest</string>
+    <string name="title_activity_game_main">GameMainActivity</string>
+    <string name="title_activity_test_action_send">TestActionSend</string>
+    <string name="title_activity_test15">Test15</string>
+    <string name="title_activity_view_pager">ViewPagerActivity</string>
+    <string name="title_activity_view_pager_zoom">ViewPagerZoom</string>
+    <string name="title_activity_circular_view_pager_actvity">CircularViewPagerActvity</string>
 
 </resources>
