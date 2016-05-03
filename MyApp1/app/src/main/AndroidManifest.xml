@@ -3,7 +3,7 @@
     package="com.example.aman.myapp1">
 
     <permission
-        android:name="com.example.aman.mapapp.permission.MAPS_RECEIVE"
+        android:name="com.example.aman.mapapp1.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
 
     <uses-permission android:name="android.permission.CAMERA" />
@@ -40,7 +40,6 @@
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -74,9 +73,6 @@
         <activity
             android:name=".activity.MaterialDesign1"
             android:label="@string/title_activity_material_design1" />
-        <activity
-            android:name=".activity.TabActivity"
-            android:label="@string/title_activity_tab" />
         <activity
             android:name=".activity.Movies_Detail"
             android:label="@string/title_activity_movies__detail" />
@@ -144,12 +140,6 @@
             android:name=".activity.Test7Activity"
             android:label="@string/title_activity_test7"
             android:windowSoftInputMode="stateVisible|adjustResize" />
-
-        <service
-            android:name=".MyService"
-            android:enabled="true"
-            android:exported="true" />
-
         <activity
             android:name=".activity.Test7"
             android:label="@string/title_activity_test7" />
@@ -175,19 +165,45 @@
             android:label="@string/title_activity_test_action_send" />
         <activity
             android:name=".activity.Test15"
-            android:label="@string/title_activity_test15"/>
+            android:label="@string/title_activity_test15" />
         <activity
             android:name=".activity.ViewPagerActivity"
-            android:label="@string/title_activity_view_pager"/>
+            android:label="@string/title_activity_view_pager" />
         <activity
             android:name=".activity.ViewPagerZoom"
-            android:label="@string/title_activity_view_pager_zoom"/>
+            android:label="@string/title_activity_view_pager_zoom" />
         <activity
-            android:name=".activity.CircularViewPagerActvity"
-            android:label="@string/title_activity_circular_view_pager_actvity"/>
+            android:name=".activity.CircularViewPagerActivity"
+            android:label="@string/title_activity_circular_view_pager_activity" />
         <activity
             android:name=".demo.DemoMainActivity"
-            android:label="@string/title_activity_game_main"/>
+            android:label="@string/title_activity_game_main" />
+
+        <service
+            android:name=".service.AlarmIntentService"
+            android:exported="false" />
+        <service
+            android:name=".service.TestIntentService"
+            android:exported="false" />
+        <service
+            android:name=".service.NetworkIntentService"
+            android:exported="false" />
+        <service
+            android:name=".service.MyLocationIntentService"
+            android:exported="false" />
+        <service
+            android:name=".service.MyLocationService"
+            android:exported="false" />
+
+        <receiver
+            android:name=".receiver.AlarmBroadcastReceiver"
+            android:process=":remote" />
+
+        <activity android:name=".activity.GeoFenceActivity" />
+
+        <service
+            android:name=".service.GeofenceTransitionsIntentService"
+            android:exported="false"/>
     </application>
 
 </manifest>

@@ -114,6 +114,16 @@
     <string name="title_activity_test15">Test15</string>
     <string name="title_activity_view_pager">ViewPagerActivity</string>
     <string name="title_activity_view_pager_zoom">ViewPagerZoom</string>
-    <string name="title_activity_circular_view_pager_actvity">CircularViewPagerActvity</string>
+    <string name="title_activity_circular_view_pager_activity">CircularViewPagerActvity</string>
+
+    <string name="geofence_transition_invalid_type">
+        Geofence transition error: invalid transition type %1$d
+    </string>
+    <!-- Transition type strings -->
+    <string name="geofence_transition_entered">Entered</string>
+    <string name="geofence_transition_exited">Exited</string>
+    <string name="unknown_geofence_transition">Unknown Transition</string>
+
+    <string name="geofence_transition_notification_text">Click notification to return to app</string>
 
 </resources>

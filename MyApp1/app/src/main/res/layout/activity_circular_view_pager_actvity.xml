@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.aman.myapp1.activity.CircularViewPagerActvity">
+    tools:context=".activity.CircularViewPagerActivity">
 
     <com.example.aman.myapp1.custom_view.LoopViewPager
         android:id="@+id/loop_view_pager"

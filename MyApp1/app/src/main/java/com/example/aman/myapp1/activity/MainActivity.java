@@ -1,21 +1,28 @@
 package com.example.aman.myapp1.activity;
 
+import android.Manifest;
 import android.content.Intent;
-import android.os.*;
-import android.support.v7.app.ActionBarActivity;
+import android.content.pm.PackageManager;
+import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
+import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import com.example.aman.myapp1.R;
 import com.example.aman.myapp1.demo.DemoMainActivity;
 import com.example.aman.myapp1.game_test.GameMainActivity;
 import com.example.aman.myapp1.gif_image.GifMainActivity;
+import com.example.aman.myapp1.util.AlarmUtil;
 import com.example.aman.myapp1.util.LevelView;
-import com.example.aman.myapp1.R;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
+    private static final String TAG = "MainActivity";
+    private static final int REQ_CODE = 1221;
 
 
     @Override
@@ -27,9 +34,12 @@ public class MainActivity extends ActionBarActivity {
         label.setText("NEW");
         label.setBackgroundColor(0xff03a9f4);
         label.setTargetView(findViewById(R.id.feature1), 5, LevelView.Gravity.LEFT_TOP);
-
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
 
 
     @Override
@@ -68,11 +78,11 @@ public class MainActivity extends ActionBarActivity {
         switch (id){
 
             case R.id.feature1:
-                startActivity(new Intent(getApplicationContext(),CircularViewPagerActvity.class));
+                startActivity(new Intent(getApplicationContext(),CircularViewPagerActivity.class));
                 break;
 
             case R.id.feature2:
-                startActivity(new Intent(getApplicationContext(), DemoMainActivity.class));
+                startActivity(new Intent(getApplicationContext(), SearchActivity.class));
                 break;
 
             case R.id.feature3:
@@ -80,7 +90,7 @@ public class MainActivity extends ActionBarActivity {
                 break;
 
             case R.id.feature4:
-                startActivity(new Intent(getApplicationContext(), TabActivity.class));
+                startActivity(new Intent(getApplicationContext(), GifMainActivity.class));
                 break;
 
             case R.id.feature5:

@@ -37,7 +37,7 @@ public class PlacePickerActivity extends ActionBarActivity {
 
                 try{
                     PlacePicker.IntentBuilder intentBuilder = new PlacePicker.IntentBuilder();
-                    Intent intent = intentBuilder.build(getApplicationContext());
+                    Intent intent = intentBuilder.build(PlacePickerActivity.this);
 
                     startActivityForResult(intent,REQUEST_CODE);
 

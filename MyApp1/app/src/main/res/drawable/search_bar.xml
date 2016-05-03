@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="150dp"
     android:height="24dp"
@@ -9,7 +7,7 @@
 
     <path
         android:name="search"
-        android:pathData="@string/path_search"
+        android:pathData="M141,17 A9,9 0 1,1 142,16 L149,23"
         android:strokeWidth="2"
         android:strokeColor="#ffffff"
         android:strokeAlpha="0.8"

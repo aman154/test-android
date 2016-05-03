@@ -4,12 +4,6 @@ import android.util.Log;
 
 import com.example.aman.myapp1.model.PlaceResult;
 import com.example.aman.myapp1.model.PlaceRoot;
-
-import org.apache.http.HttpResponse;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.util.ByteArrayBuffer;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
