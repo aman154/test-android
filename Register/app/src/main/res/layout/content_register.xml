@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.RegisterActivity"
+    tools:showIn="@layout/activity_register"
+    android:background="@color/home_page_bg">
+
+    <LinearLayout
+        android:id="@+id/reg_sale_ll"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        android:background="@drawable/default_lightgray_touch_effect">
+
+        <TextView
+            android:id="@+id/reg_sale_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Sale"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/reg_sale_count_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/reg_charge_ll"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/reg_sale_ll"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/reg_charge_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Charge"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/reg_money_symbol_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="$"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/reg_charge_amount_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:hint="0.00"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/reg_fragments_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/reg_charge_ll"
+        android:layout_gravity="bottom"
+        app:tabIndicatorColor="@color/black"
+        app:tabMaxWidth="0dp"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/black"
+        app:tabTextColor="#99212121" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/reg_fragment_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reg_fragments_tab_layout" />
+
+</RelativeLayout>
