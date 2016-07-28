@@ -13,6 +13,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.example.aman.myapp1.R;
+import com.example.aman.myapp1.ViewPagerTest;
 import com.example.aman.myapp1.demo.DemoMainActivity;
 import com.example.aman.myapp1.game_test.GameMainActivity;
 import com.example.aman.myapp1.gif_image.GifMainActivity;
@@ -78,11 +79,11 @@ public class MainActivity extends AppCompatActivity {
         switch (id){
 
             case R.id.feature1:
-                startActivity(new Intent(getApplicationContext(),CircularViewPagerActivity.class));
+                startActivity(new Intent(getApplicationContext(),ViewPagerTest.class));
                 break;
 
             case R.id.feature2:
-                startActivity(new Intent(getApplicationContext(), SearchActivity.class));
+                startActivity(new Intent(getApplicationContext(), ExpandableViewActivity.class));
                 break;
 
             case R.id.feature3:
