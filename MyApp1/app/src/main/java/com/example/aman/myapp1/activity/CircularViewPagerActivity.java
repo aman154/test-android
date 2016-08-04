@@ -140,6 +140,8 @@ public class CircularViewPagerActivity extends AppCompatActivity {
                     false);
             imgDisplay = (ImageView) viewLayout.findViewById(R.id.home_blist_image);
 
+
+
             url = urls.get(position);
 
             if (url != null && url.length() > 0) {

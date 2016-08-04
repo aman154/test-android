@@ -26,7 +26,13 @@
 
         <activity
             android:name=".activity.HomeActivity"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".activity.ProductListActivity"
             android:label="@string/title_activity_home_list_detail"></activity>
@@ -39,11 +45,6 @@
         <activity
             android:name=".activity.Splash"
             android:label="@string/app_name">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <service
